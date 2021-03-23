@@ -1,3 +1,29 @@
-h1 {
-    color: red;
+body
+{
+	background-color: #deebff;
+    margin: auto;
+    padding: 0;
+
 }
+
+.container{
+	border:2px dashed #deebff;
+	display: grid;
+	grid-template-areas: "entete entete entete"
+						 "principale principale"
+						 "pied pied pied";
+}             
+					 
+
+.item{
+	border: 1px solid #221fb3;
+	background-color:#386ccc;
+	color: #fff; 
+	font-weight: bolder;
+	padding: 10px;
+}
+
+
+header{grid-area: entete;}
+main{grid-area: principale;}
+footer{grid-area: pied;}
