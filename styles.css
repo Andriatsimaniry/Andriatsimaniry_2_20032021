@@ -2,29 +2,57 @@ body{
 	margin: 0px;
 	padding:0px;
 }
-
-
-
 div{
 	border: 1px solid #ccc;
-	background-color: #999;
+	background-color: #f2f2f2;
 }
 
 .tete {
 	display: grid;
-	grid-template: auto / repeat(12,1fr);
-	grid-template-areas: "l l l l l l l l l h a i";					
+	grid-template-columns: repeat(12,1fr);
+	grid-template-rows: repeat(5,1fr);
 	
+	
+						
 }
 .logo{
-	grid-area: l;
+	grid-row: 1 ;
+	grid-column: 1 / span 9;
+	
 }
-.hebergement{
-	grid-area: h;
+.text{
+	grid-row: 2 ;
+	grid-column: 1 / span 12;
 }
-.activite{
-	grid-area: a;
+.recherche{
+	grid-row: 3;
+	grid-column: 1 / span 12;
 }
-.inscrire{
-	grid-area: i;
+.filtres{
+	grid-row: 4 ;
+	grid-column: 1 ;
 }
+.economique{
+	grid-row: 4;
+	grid-column: 2 / span 2;
+}
+.familiale{
+	grid-row: 4;
+	grid-column: 4 ;
+}
+.romantique{
+	grid-row: 4;
+	grid-column: 5 / span 2;
+}
+.animaux{
+	grid-row: 4;
+	grid-column: 7 / span 6;
+}
+.ville{
+	grid-row: 5;
+	grid-column: 1 / span 12;
+}
+
+
+
+
