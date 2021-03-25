@@ -1,29 +1,30 @@
-body
-{
-	
-    margin: auto;
-    padding: 0;
-
+body{
+	margin: 0px;
+	padding:0px;
 }
 
-.container{
-	border:2px dashed #deebff;
+
+
+div{
+	border: 1px solid #ccc;
+	background-color: #999;
+}
+
+.tete {
 	display: grid;
-	grid-template-areas: "entete entete entete"
-						 "principale principale"
-						 "pied pied pied";
-}             
-					 
-
-.item{
-	border: 1px solid #221fb3;
-	background-color:#386ccc;
-	color: #fff; 
-	font-weight: bolder;
-	padding: 10px;
+	grid-template: auto / repeat(12,1fr);
+	grid-template-areas: "l l l l l l l l l h a i";					
+	
 }
-
-
-header{grid-area: entete;}
-main{grid-area: principale;}
-footer{grid-area: pied;}
+.logo{
+	grid-area: l;
+}
+.hebergement{
+	grid-area: h;
+}
+.activite{
+	grid-area: a;
+}
+.inscrire{
+	grid-area: i;
+}
