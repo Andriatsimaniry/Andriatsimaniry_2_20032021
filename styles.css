@@ -26,19 +26,43 @@ body{
 .text-search {
 	grid-row: 2 ;
 	grid-column: 1 / span 3;
-	
-	
-	
 }
 .filters-container{
 	display: flex;
 	grid-row: 3 ;
-	grid-column: 1 / span 2;
+	grid-column: 1 / span 3;
 	justify-content: space-around;
 	align-items: center;
 }
+
+
+.filter {
+	display: flex;
+	align-items: center;
+	border: 1px solid #F2F2F2;
+	border-radius: 17.5px;
+	height: 35px;
+	border-left: none;
+}
+
+.filter h1 {
+	padding: 0 5px;
+	white-space: nowrap;
+}
+
+.icon-container {
+	height: 37px;
+	width: 37px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #DEEBFF;
+    border-radius: 18.5px;
+	margin-left: -1px;
+}
 .ville{
 	grid-row: 4;
-	grid-column: 1 / span 3;
-	
+	grid-column: 1 / span 2;
+	display: flex;
+	align-items: center;
 }
