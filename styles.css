@@ -1,20 +1,26 @@
 p { font-family: Raleway; font-size: 9px; font-style: normal; font-variant: normal; } 
-h1 { font-family: Raleway; font-size: 13px; font-style: normal; font-variant: normal; } 
+h1 { font-family: Raleway; font-size: 12px; font-style: normal; font-variant: normal;color: black } 
 h2{ font-family: Raleway; font-size: 9px; font-style: normal; font-variant: normal; }
+h3{font-family: Raleway; font-size: 9px; font-style: normal; font-variant: normal; color: #0065fc; }
+
 body{
 	font-family: Raleway; font-size: 13px; font-style: normal; font-variant: normal; 
-	margin: 20px;
-	padding:20px;
+	margin: 10px;
+	padding:10px;
 }
 
 .tete {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
-	grid-template-rows: repeat(4,1fr);			
+	grid-template-rows: repeat(4,1fr);
+	padding-top: 0px			
 }
 .logo{
+	
 	grid-row: 1 ;
 	grid-column: 1;
+	display: flex;
+	align-items: center;
 }
 .menu{
 	grid-row: 1 ;
@@ -25,28 +31,79 @@ body{
 }
 .text-search {
 	grid-row: 2 ;
-	grid-column: 1 / span 3;
+	grid-column: 1 / span 2;
+}
+.search{
+	grid-row: 2;
+	grid-column: 1 span 2;
+	display: flex;
+	align-items: flex-start;
+	margin-left: -1;
+
+}
+
+.icon-search{
+	height: 30px;
+	width: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F2F2F2;
+    border-top-left-radius: 10px ;
+	border-bottom-left-radius:10px;
+    
+
+	
+}
+.btn1{
+	border:2px solid #F2F2F2;
+	height: 30px;
+	width: 150px;
+
+
+	
+	
+}
+.btn2{
+	border:2px solid #F2F2F2;
+	height: 30px;
+	width: 100px;
+	color: #fff;
+	font-family: raleway;
+	border-top-right-radius: 10px ;
+	border-bottom-right-radius:10px;
+	background: #0065fc;
+	display: flex;
+	align-items: center;
+    justify-content: center;
+
+
+    
 }
 .filters-container{
-	display: flex;
 	grid-row: 3 ;
-	grid-column: 1 / span 3;
-	justify-content: space-around;
-	align-items: center;
+	grid-column: 1 / span 2;
+	display: flex;
+	justify-content: space-between;
+	align-items:center;
+
 }
 
 
 .filter {
 	display: flex;
 	align-items: center;
-	border: 1px solid #F2F2F2;
-	border-radius: 17.5px;
-	height: 35px;
+	border: 2px solid #F2F2F2;
+	border-radius: 18px;
+	height: 32px;
 	border-left: none;
+}
+a:hover {
+  background-color: gold;
 }
 
 .filter h1 {
-	padding: 0 5px;
+	padding: 10px;
 	white-space: nowrap;
 }
 
@@ -59,6 +116,7 @@ body{
     background-color: #DEEBFF;
     border-radius: 18.5px;
 	margin-left: -1px;
+
 }
 .ville{
 	grid-row: 4;
@@ -66,3 +124,5 @@ body{
 	display: flex;
 	align-items: center;
 }
+
+

@@ -1,0 +1,31 @@
+@media all and (max-width: 1024px)
+ {
+    .filters-container {
+    flex-flow: column wrap;
+    justify-content: space-around;
+    align-items: stretch;
+    }
+
+    .filter {
+  flex-flow: column wrap;
+   justify-content: space-around;
+    align-items: flex-start;
+    }
+
+    .menu{
+      flex-flow:column wrap;
+      justify-content: space-around;
+       align-items: stretch;
+    }
+    .icon-container{
+     flex-flow: column wrap;
+       justify-content: space-around;
+        align-items: center;
+    }
+
+    .filter h1{
+    flex-flow: column wrap;
+      justify-content: space-around;
+       align-items: stretch;
+    }
+}
