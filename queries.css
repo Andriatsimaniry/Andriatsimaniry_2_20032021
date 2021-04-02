@@ -1,31 +1,46 @@
-@media all and (max-width: 1024px)
- {
-    .filters-container {
-    flex-flow: column wrap;
+@media screen and (max-width: 764px){
+
+  .menu{
+    flex-flow: column-reverse;
     justify-content: space-around;
-    align-items: stretch;
-    }
-
-    .filter {
-  flex-flow: column wrap;
-   justify-content: space-around;
-    align-items: flex-start;
-    }
-
-    .menu{
-      flex-flow:column wrap;
-      justify-content: space-around;
        align-items: stretch;
-    }
-    .icon-container{
-     flex-flow: column wrap;
-       justify-content: space-around;
-        align-items: center;
-    }
+  }
+  .logo{
+    margin-top: -100px;
+  }
+  .hebergement{
+    margin-left: -145px;
+    margin-top: -70px;
+  }
+  .inscrire{
+    margin-top: -20px;
+  }
+  .trait-dessus{
+    margin-bottom: -20px;
+    margin-left: -340px;
+  }
+  .activite{
+    margin-top: -60px;
+    margin-left: 20px;
+    
 
-    .filter h1{
-    flex-flow: column wrap;
-      justify-content: space-around;
-       align-items: stretch;
-    }
+  }
+  .filters-container {
+    
+    display: flex;
+    flex-flow: row wrap;
+
+  }
+ .trouver{
+  white-space:pre-line;
+ }
+  .loge{
+    white-space:pre-line;
+  }
 }
+   
+   
+   
+  
+  
+  
