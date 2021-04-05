@@ -11,6 +11,7 @@
     />
     <link
       rel="stylesheet"
+	  type="text/css"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
     <link
@@ -21,14 +22,16 @@
     <link
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet"
+	  type="text/css"
     />
     <link rel=" preconnect " href=" https://fonts.gstatic.com " />
     <link
       rel="stylesheet"
+	  type="text/css"
       href="queries.css"
     />
 
-    <title>Projet2</title>
+    <title>Projet 2</title>
   </head>
 
   <body>
@@ -37,23 +40,26 @@
     <header>
       <div class="tete">
         <div class="logo">
-          <img src="Reservia.svg" alt="Reservia" />
+          <img src="Reservia.svg" alt=" logo Reservia" />
         </div>
 
         <!--       Menu       -->
 
         <div class="menu">
-          <div class="trait-dessus"></div>
 
-          <div class="hebergement">
-            <a href="#hebergements" class="hebergement"> Hébergements</a>
+          <div class="menu-item">
+            <a href="#hebergements" class="menu-link"> Hébergements</a>
           </div>
 
-          <div class="activite">
-            <a href=" #activites " class="activite"> Activités</a>
+          <div class="menu-item">
+            <a href=" #activites " class="menu-link"> Activités</a>
           </div>
-          <div class="inscrire"><a> S'inscrire</a></div>
+
         </div>
+
+        <!--   Inscription  -->
+
+        <div class="inscrire"><a> S'inscrire</a></div>
 
         <!--   Recherche   -->
 
@@ -70,7 +76,10 @@
               <i class="fas fa-map-marker-alt gps"></i>
             </div>
             <input class="btn1" type="search" placeholder="Marseille,France" />
-            <button class="btn2">Rechercher</button>
+            <button class="btn-search">Rechercher</button>
+            <button class="btn-loupe">
+              <i class="fas fa-search search-icons"></i>
+            </button>
           </div>
         </div>
 
@@ -121,23 +130,24 @@
     <!--         MAIN           -->
 
     <main class="main">
+		 <!--  SECTION  Hébergements à marseille -->
       <section id="hebergements" class="Hotel">
         <h3>Hébergements à Marseille</h3>
 
-        <!--  SECTION  -->
+       
       </section>
-
+		<!--  ASIDE les plus populaires -->
       <aside class="aside">
         <h3>Les plus populaires</h3>
 
-        <!--  ASIDE  -->
+        
       </aside>
-
-      <article id="activites" class="article">
+	  <!-- section Activités à Marseille-->
+      <section id="activites" class="activite">
         <h3>Activités à Marseille</h3>
 
-        <!--   ARTICLE   -->
-      </article>
+        
+	  </section>
     </main>
 
     <!--   FOOTER    -->
