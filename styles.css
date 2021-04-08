@@ -1,9 +1,9 @@
 body {
 
-	font-family: Raleway;
+	font-family: "Raleway",sans-serif;
 	}
 	
-  /* contenaire en-tête */
+  /* contenaire en-tÃĒte */
 	
 	.tete {
 	display: grid;
@@ -64,7 +64,9 @@ body {
 	  color: #0065fc;
 	  font-weight: bolder;
 	}
-	
+	 h1 {
+        font-size: 22px;
+    }
 	/* Recherche */
 	.text-search {
 	grid-row: 2;
@@ -72,7 +74,7 @@ body {
 	}
 	.search {
 	grid-row: 2;
-	grid-column: 1 span 2;
+	grid-column: 1 / span 2;
 	display: flex;
 	align-items: flex-start;
 	margin-left: -1;
@@ -82,10 +84,9 @@ body {
 	font-family:raleway;
 	font-weight: bolder;
 	color: #000;
-	opacity: 1;
 	}
 	.icon-search {
-	height: 30px;
+	height: 38px;
 	width: 35px;
 	display: flex;
 	align-items: center;
@@ -96,14 +97,15 @@ body {
 	}
 	.btn1 {
 	border: 2px solid #f2f2f2;
-	height: 30px;
+	height: 38px;
 	width: 150px;
+	padding-left: 1em;
 	}
    
 	
 	.btn-search {
-	border: 2px solid #f2f2f2;
-	height: 30px;
+	border: 2px solid #0065fc;
+	height: 38px;
 	width: 100px;
 	color: #fff;
 	font-family: raleway;
@@ -120,23 +122,26 @@ body {
 	}
 	/*  titre Filtres */
 	
-	.filtre{
-	grid-row: 3;
-	grid-column: 1;
-	font-size: 13;
 	
 	/*  contenaire des filtres  */
-	}
 	.filters-container {
 	grid-row: 3;
 	grid-column: 1 / span 2;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	margin-top: 50px;
-	padding: 10px;
-	
+	padding: 20px 0;
+    margin-right: auto;
 	}
+
+	.filters {
+		display: flex;
+	}
+
+	.filter-label {
+		margin-right: 1em;
+	}
+
 	/*   cadre du texte filtres */
 	
 	.filter {
@@ -147,6 +152,7 @@ body {
 	height: 32px;
 	border-left: none;
 	padding-right: 10px;
+	margin: 0 1em;
 	}
 	  /* texte du filtres */
 	.filter a {
@@ -159,10 +165,10 @@ body {
 	}
 	/* Changement d'apparence au passage de souris */
 	.filter:hover{
-	 background-color:#0065fc; 
+	 background-color:#deebff; 
 	}
 	.filter a:hover{
-	color: #fff;
+	color: #000;
 	}
 	
 	
@@ -182,17 +188,26 @@ body {
 	}
 	
 	/* texte bas de l'entete */
-	.ville {
+	.info {
 	grid-row: 4;
 	grid-column: 1 / span 2;
 	display: flex;
-	align-items: center;
+	align-items: flex-start;
+    margin-left: 5px;}
+    
+   .info .fas {
+    width: 13px;
+    height: 13px;
+    border: 2px solid #f2f2f2;
+    border-radius: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
 	
-	
-	}
-  
-  .loge {
+	.loge {
 	font-size: 13px;
+    margin: 0 0 0 5px;
   }
   
 	 /* ----------   Main ------------ ---------*/
