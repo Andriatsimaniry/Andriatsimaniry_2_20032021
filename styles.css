@@ -230,7 +230,7 @@ body {
 	
 	.cadre{
 		display: flex;
-		justify-content: space-around;
+		justify-content: space-between;
 		margin-top: 30px;
 	}
 
@@ -240,7 +240,7 @@ body {
 		flex-direction: column;
 		justify-content: space-around;
 		flex-wrap: wrap;
-		width: 65%;
+		width: 70%;
 		border-radius: 15px;
 		margin-left: -20px;
 	  }
@@ -252,6 +252,8 @@ body {
 		border-radius: 15px;
 		margin-top:-20px;
 		margin-left: 30px;
+		justify-content: space-between;
+		
 		
 		
 		 
@@ -268,23 +270,21 @@ body {
 		background-color: #fff;
 		margin-top: 25px;
 		height:auto;
-		width: 260px;
-		margin-left: -1px;
+		width: 30%;
 		margin-right: 25px;
 		border-radius: 15px;
 		box-shadow: 0 0 6px 3px #b1b1b14b;
-		transition: box-shadow 0.2s;	
+		transition: box-shadow 0.2s;
+		padding:3px;	
 	}
 	.hotel-card:hover{
 		transform: scale(1.05);
  		 box-shadow: 0 0 3px 2px #d8d7d7;
 	}	 
 	.hotel-card img{
-		height: 115px;
-		width: 97%;
+		height: 11em;
+		width: 100%;
 		object-fit: cover;
-		margin-left: 3px;
-		margin-top: 3px;
 		border-top-left-radius: 15px;
 		border-top-right-radius: 15px;
 	}
@@ -297,6 +297,7 @@ body {
 		font-size: 12px;
 		margin-left: 15px;
 		margin-top: 15px;
+		margin-bottom: 15px;
 	}
 	.hotel-detail p {
 	color: #000;
@@ -342,9 +343,10 @@ body {
 	 .populaire-cadre{
 		 background-color: #f2f2f2;
 		 display: flex;
-		 width: 35%;
+		 width: 25%;
 		 flex-direction: column;
-		 padding: 1em;
+		 padding: 2em;
+		 border-radius: 15px;
 	 
 		}
 	.populaire-container{
@@ -359,17 +361,17 @@ body {
 	}
 	.image-populaire{
 		background-color: #fff;
-		width: 360px;
-		height: 120px;
+		height: 10em;
 		display: flex;
 		border-radius: 20px;
+		padding: 3px;
 	}
 	.image-populaire img{
 		object-fit: cover;
 		height: auto;
 		width: 40%;
-		border-bottom-left-radius:15%;
-		border-top-left-radius: 15%;
+		border-bottom-left-radius:10%;
+		border-top-left-radius: 10%;
 	}
 	.text-populaire{
 		color: #000;
@@ -377,16 +379,24 @@ body {
 		font-size: 15px;
 		margin-left: 20px;
 	}
+	.text-populaire h3{
+		margin-bottom: 10px;
+	}
 	.price{
 		color: #000;
 		font-size: 12px;
-		margin-left: 10px;
-		margin-top: -10px;
+		
 	}
 	.populaire-star-icons{
 		font-size: 10px;
-		margin-left: 10px;
-		margin-top: 5px;
+		margin-left: 20px;
+		margin-top: 20px;
+	}
+	.contenu{
+		display: flex;
+		flex-grow: 1;
+		flex-direction: column;
+		padding: 1em;
 	}
 	  
   
