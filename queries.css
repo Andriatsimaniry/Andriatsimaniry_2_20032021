@@ -1,13 +1,16 @@
 /*===== si l'écran est entre 765px et 1460px alors ============*/
-@media screen and (min-width:765px) and (max-width:1460px) {
+@media screen and (min-width:765px) and (max-width:1440px) {
 /*==================EN TËTE ================*/
+.tete {
+  margin-left: 0em;
+}
 
 
   h3{
   font-size: 12px;
 }
 .btn1{
-  font-size: 13px;
+  font-size: 16px;
 }
 .trouver{
   font-size: 18px;
@@ -43,6 +46,7 @@
 .image-populaire{
   padding: 0em;
   margin:0 -1.3em 0 -1.3em;
+  height: 8em;
 }
 .image-populaire img{
   width: 50%;
@@ -63,6 +67,8 @@
 }
 .text-populaire {
   margin-left: 0.3em;
+ 
+  
 }
 .extrat-populaire{
   margin-right: -1em;
@@ -72,10 +78,10 @@
   font-size: 10px;
   margin-left: 0.3em;
   display: flex;
-  margin-top: -0.5em;
+  margin-top: 0em;
 }
 .price{
-  font-size: 11px;
+  font-size: 10px;
 }
 /*============== SECTION ACTIVITES ==============*/
 
@@ -116,10 +122,11 @@
 
     /*=============EN TËTE =========================*/
 
- .tete {
-    margin: 0;
-  }
+    .tete {
+      margin: 0em;
+    }  
 
+ 
   .menu{
     justify-content: space-around;
     grid-row: 2;
@@ -128,11 +135,11 @@
 
   .menu-item {
 	border-top: none;
-    border-bottom: 2px solid #f2f2f2;
+  border-bottom: 2px solid #f2f2f2;
 	padding: 1em 10px;
-    width: 50%;
-    justify-content: center;
-    height: auto;
+   width: 50%;
+  justify-content: center;
+  height: auto;
   }
 
  .btn1 {
@@ -194,7 +201,7 @@
   }
 
   .filter {
-    margin: 0.5em 2em 0.5em 10px;
+    margin: 0.5em 1em 0.5em 0.5em;
   }
 
  .trouver{  
@@ -253,6 +260,7 @@
   flex-direction: column;
 }
 .hotel-container{
+  background-color: #fff;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -261,9 +269,18 @@
   margin-left: 0em;
 }
 /*================ASIDE LES PLUS POPULAIRES =======*/
-
-.titre{
+.main{
+  margin: 0em;
+}
+.populaire-titre{
   font-size: 16px;
+  margin-left: 1em;
+}
+
+.image-populaire{
+  height: 7em;
+  width: 16em;
+  margin-left: 2em;
 }
 .image-populaire img{
   width: 35%;
@@ -271,20 +288,39 @@
 .populaire-cadre{
   width: 100%;
   padding: 0em;
+  
+}
+.populaire-cadre {
+  background-color: #f2f2f2;
+    margin: 0em 0em 0em 0em;
+  
 }
 .text-populaire{
   margin-left: 0em;
+  margin-top: -1em;
+}
+.text-populaire h3{
+  font-size: 12px;
 }
 .populaire-star-icons{
   margin-left: 0em;
+  margin-top: 0em;
+}
+.price{
+  font-size: 10px;
+  font-weight: 500;
 }
 /*================SECTION ACTIVITES =============*/
+.titre{
+  font-size: 16px;
+}
 
 .activity-block{
-  width: 100%;
+  width: 97%;
+  margin-left: 1em;
 }
 .activity-port-image,.activity-pomegues,.activity-calanque-image
-,.activity-lagarde,.activity-longchamp{
+,.activity-lagarde,.activity-longchamp,.activity-frioul{
   height: 7em;
 }
 .activity-card{
