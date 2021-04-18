@@ -134,7 +134,7 @@ h3{
 }
 .hotel-container{
   width: 78%;
-  margin-right:0 0.5em 0 0.5em;
+  margin:0 0.5em 0 0.5em;
 }
 .hotel-card{
   width: 27%;
@@ -151,6 +151,9 @@ h2{
 }
 .activity-card{
   width: 90%;
+}
+.activity-port-image{
+  height: 31em;
 }
 .assistance{
   margin-right: 1em;
