@@ -1,4 +1,4 @@
-/*===== si l'écran est entre 765px et 1460px alors ============*/
+/*===== si l'écran est entre 1440px et 765px  alors ============*/
 @media screen and (min-width:765px) and (max-width:1440px) {
 /*==================EN TËTE ================*/
 .tete {
@@ -7,7 +7,7 @@
 
 
   h3{
-  font-size: 12px;
+  font-size: 13px;
 }
 .btn1{
   font-size: 16px;
@@ -84,7 +84,9 @@
   font-size: 10px;
 }
 /*============== SECTION ACTIVITES ==============*/
-
+.h3{
+  font-size: 12px;
+}
 .titre{
   font-size: 16px;
 }
