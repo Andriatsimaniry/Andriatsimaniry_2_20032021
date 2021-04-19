@@ -1,6 +1,8 @@
 /*===== si l'écran est plus de  769px alors  ============*/
-@media screen and (min-width:769px) {
+@media screen and (min-width:769px) and (max-width:1200px) {
 /*==================EN TËTE ================*/
+
+
 .tete {
   margin-left: 3em;
 }
@@ -120,8 +122,12 @@ h3{
  }
 }
  @media screen and (min-width: 426px) and (max-width:768px){
-.tete{
-  margin: 0 0.5em;
+ html,body{
+    margin-right: -7em;
+  }
+
+  .tete{
+  margin: 0em 0.5em;
 }
 .trouver{
   font-size: 18px;
@@ -151,6 +157,9 @@ h2{
 }
 .activity-card{
   width: 90%;
+}
+.activity-cadre{
+  margin: 0em -3em 0em -3em;
 }
 .activity-port-image{
   height: 31em;
@@ -320,8 +329,8 @@ h2{
 
 .image-populaire{
   height: 7em;
-  width: 16em;
-  margin-left: 2em;
+  width: 20em;
+  margin-left: 0.2em;
 }
 .image-populaire img{
   width: 35%;
