@@ -1,4 +1,4 @@
-/*===== si l'écran est plus de  769px alors  ============*/
+/*===== si l'écran est entre  769px et 1200px pour ordinateur portable  ============*/
 @media screen and (min-width:769px) and (max-width:1200px) {
 /*==================EN TËTE ================*/
 
@@ -45,11 +45,12 @@ h3{
 /* ==============SECTION ASIDE LES PLUS POPULAIRES===========*/
 .populaire-cadre{
   margin:0 0.5em;
+  padding: 2em;
   
 }
 .image-populaire{
   padding: 0em;
-  margin:0 -1.3em 0 -1.3em;
+  
   height: 8em;
 }
 .image-populaire img{
@@ -60,7 +61,7 @@ h3{
   font-size: 13px;
   display: flex;
   justify-content: space-between;
-  margin-right: -1em;
+ 
   margin-left: -1.5em;
 }
 .populaire-titre{
@@ -121,22 +122,22 @@ h3{
      font-size: 12px;
  }
 }
+/*=========si l'écran est entre  426px et 768px pour les tablettes===========*/
  @media screen and (min-width: 426px) and (max-width:768px){
- html,body{
-    margin-right: -7em;
-  }
+h3{
+  font-size: 12px;
+}
 
   .tete{
   margin: 0em 0.5em;
 }
+.main {
+  margin: 0;
+}
+
 .trouver{
   font-size: 18px;
-}
-  .populaire-cadre{
-  margin-right: -3.5em;
-}
-.cadre{
-  margin-left: -4em;
+
 }
 .hotel-container{
   width: 78%;
@@ -152,14 +153,15 @@ h3{
 .populaire-star-icons{
   margin-top: 0em;
 }
+.populaire-cadre {
+  padding: 0.5em 1em;
+}
 h2{
   font-size: 16px;
 }
 .activity-card{
   width: 90%;
-}
-.activity-cadre{
-  margin: 0em -3em 0em -3em;
+
 }
 .activity-port-image{
   height: 31em;
@@ -167,8 +169,27 @@ h2{
 .assistance{
   margin-right: 1em;
 }
+.filters-container {
+  grid-column: 1 / span 4;
+}
+.filters {
+  flex-wrap: wrap;
+}
+
+.filter-label {
+  align-self: flex-start;
+}
+
+.filter {
+  margin: 0.5em 1em;
+}
+.liste li{
+  margin: 0.2em 0;
+  font-size: 12px;
+}
 
  }
+ /*========= si l'écran est inférieur à 425px pour les téléphones portables ========*/
  @media screen and (max-width: 425px){
     /*=============EN TËTE =========================*/
 

@@ -353,7 +353,7 @@ h3{
 		 display: flex;
 		 width: 25%;
 		 flex-direction: column;
-		 padding:0.5em 2em;
+		 padding: 0.5em 1em;
 		 border-radius: 15px;
 	 
 		}
@@ -511,6 +511,6 @@ h3{
 	.assistance {
 	display: flex;
 	align-items: center;
-	margin-right: 500px;
+	margin-right: 20em;
 	}
 	
