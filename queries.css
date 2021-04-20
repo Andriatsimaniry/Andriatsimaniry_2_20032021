@@ -131,6 +131,9 @@ h3{
   .tete{
   margin: 0em 0.5em;
 }
+.text-search{
+  grid-column:1 / span 3;
+}
 .main {
   margin: 0;
 }
@@ -139,25 +142,65 @@ h3{
   font-size: 18px;
 
 }
+.marseille{
+  margin-top: 3em;
+}
 .hotel-container{
   width: 78%;
   margin:0 0.5em 0 0.5em;
+  background-color: #fff;
+}
+.card-container{
+  margin:0 -9em 0 0;
+}
+.cadre{
+  display: flex;
+  flex-direction: column-reverse;
 }
 .hotel-card{
   width: 27%;
   margin-right: 0.5em;
 }
+.hotel-card img{
+  height: 9em;
+}
+.other-page{
+  font-size: 12px;
+}
 .contenu{
   padding: 0em;
+  width: 13em;
 }
 .populaire-star-icons{
   margin-top: 0em;
 }
 .populaire-cadre {
-  padding: 0.5em 1em;
+  flex-direction: row;
+  width: 44em;
+}
+.populaire-container{
+  
+  margin-top:-12em;
+}
+.extrat-populaire{
+  margin-right: 1em;
+  margin: 0 4em 0 -3em;
+}
+.image-populaire{
+  height: 9em;
+  margin: 3em 6em 0 -5em;
+  padding: 0em;
+}
+.image-populaire img{
+  width: 49%;
+}
+.price{
+  font-size: 9px;
+  color: gray;
 }
 h2{
-  font-size: 16px;
+  font-size: 15px;
+  margin-right: 0.5em;
 }
 .activity-card{
   width: 90%;
