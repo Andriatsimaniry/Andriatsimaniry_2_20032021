@@ -8,7 +8,7 @@
 }
 
 h3{
-  font-size: 16px;
+  font-size: 12px;
 }
 .btn1{
   font-size: 16px;
@@ -44,13 +44,13 @@ h3{
 
 /* ==============SECTION ASIDE LES PLUS POPULAIRES===========*/
 .populaire-cadre{
-  margin:0 0.5em;
+  margin:0 0.5em 0 1.5em;
   padding: 2em;
   
 }
 .image-populaire{
   padding: 0em;
-  
+  margin-top: 1em;
   height: 8em;
 }
 .image-populaire img{
@@ -61,7 +61,7 @@ h3{
   font-size: 13px;
   display: flex;
   justify-content: space-between;
- 
+ margin-top: -2em;
   margin-left: -1.5em;
 }
 .populaire-titre{
@@ -87,7 +87,7 @@ h3{
 }
 .price{
   font-size: 10px;
-  margin-top: -1.2em;
+  color: gray;
 }
 /*============== SECTION ACTIVITES ==============*/
 .h3{
@@ -103,7 +103,7 @@ h3{
   height: 32em;
 }
 .activity-calanque-image{
-  height: 31em;
+  height: 32em;
 
 }
 .activity-text{
@@ -144,6 +144,7 @@ h3{
 }
 .marseille{
   margin-top: 3em;
+  margin-left: 0.5em;
 }
 .hotel-container{
   width: 78%;
@@ -151,7 +152,7 @@ h3{
   background-color: #fff;
 }
 .card-container{
-  margin:0 -9em 0 0;
+  margin:0 -13em 0 0;
 }
 .cadre{
   display: flex;
@@ -176,11 +177,12 @@ h3{
 }
 .populaire-cadre {
   flex-direction: row;
-  width: 44em;
+  width: 48em;
 }
 .populaire-container{
   
   margin-top:-12em;
+  margin-left: 0em;
 }
 .extrat-populaire{
   margin-right: 1em;
@@ -188,8 +190,9 @@ h3{
 }
 .image-populaire{
   height: 9em;
-  margin: 3em 6em 0 -5em;
-  padding: 0em;
+  margin: 3em 7em 0 -4em;
+  padding: 0.3em;
+  width: 11em;
 }
 .image-populaire img{
   width: 49%;
@@ -206,6 +209,13 @@ h2{
   width: 90%;
 
 }
+.activity-cadre{
+  margin-right: -4em;
+}
+.populaire-titre{
+  flex: none;
+}
+
 .activity-port-image{
   height: 31em;
 }
@@ -230,12 +240,16 @@ h2{
   margin: 0.2em 0;
   font-size: 12px;
 }
+footer{
+  margin-right: -3em;
+}
 
  }
  /*========= si l'écran est inférieur à 425px pour les téléphones portables ========*/
  @media screen and (max-width: 425px){
     /*=============EN TËTE =========================*/
 
+  
     .tete {
       margin: 0em;
     }  
@@ -394,7 +408,8 @@ h2{
 .image-populaire{
   height: 7em;
   width: 20em;
-  margin-left: 0.2em;
+  margin-left: 1em;
+  margin-right: 1em;
 }
 .image-populaire img{
   width: 35%;

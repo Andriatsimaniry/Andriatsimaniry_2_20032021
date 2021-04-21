@@ -397,8 +397,8 @@ h3{
 	}
 	.populaire-star-icons{
 		font-size: 10px;
-		margin-left: 20px;
-		margin-top: 20px;
+		margin-left: 2em;
+		margin-top: 0.2em;
 	}
 	.contenu{
 		display: flex;
