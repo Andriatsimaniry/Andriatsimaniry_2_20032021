@@ -1,7 +1,9 @@
 /*===== si l'écran est entre  769px et 1200px pour ordinateur portable  ============*/
-@media screen and (min-width:769px) and (max-width:1200px) {
-/*==================EN TËTE ================*/
 
+@media screen and (min-width:769px) and (max-width:1200px) {
+
+
+  /*==================EN TËTE 769px < E < 1200px ================*/
 
 .tete {
   margin-left: 3em;
@@ -17,7 +19,7 @@ h3{
   font-size: 18px;
 }
 
-      /*============SECTION HEBERGEMENTS ================ */
+      /*============SECTION HEBERGEMENTS 769px < E < 1200px================ */
 .marseille{
   font-size: 16px;
 }
@@ -42,7 +44,7 @@ h3{
   left: 0.3em;
 }
 
-/* ==============SECTION ASIDE LES PLUS POPULAIRES===========*/
+/* ==============SECTION ASIDE LES PLUS POPULAIRES 769px < E < 1200px===========*/
 .populaire-cadre{
   margin:0 0.5em 0 1.5em;
   padding: 2em;
@@ -89,7 +91,7 @@ h3{
   font-size: 10px;
   color: gray;
 }
-/*============== SECTION ACTIVITES ==============*/
+/*============== SECTION ACTIVITES 769px < E < 1200px ==============*/
 .h3{
   font-size: 12px;
 }
@@ -109,7 +111,7 @@ h3{
 .activity-text{
   margin-left: 1em;
 }
-/* ============== FOOTER====================*/
+/* ============== FOOTER 769px < E < 1200px ====================*/
 
  footer{
    display: flex;
@@ -122,25 +124,46 @@ h3{
      font-size: 12px;
  }
 }
-/*=========si l'écran est entre  426px et 768px pour les tablettes===========*/
- @media screen and (min-width: 426px) and (max-width:768px){
+/*=========si l'écran E est entre  426px et 768px pour les tablettes===========*/
+
+@media screen and (min-width: 426px) and (max-width:768px){
+  
+  
+  /*============== EN TÊTE 426px < E < 768px ===============*/
+
+.tete{
+    margin: 0em 0.5em;
+  }
+
 h3{
   font-size: 12px;
 }
-
-  .tete{
-  margin: 0em 0.5em;
+.filters-container {
+  grid-column: 1 / span 4;
 }
+.filters {
+  flex-wrap: wrap;
+}
+
+.filter-label {
+  align-self: flex-start;
+}
+
+.filter {
+  margin: 0.5em 1em;
+}
+  
 .text-search{
   grid-column:1 / span 3;
 }
-.main {
-  margin: 0;
-}
-
 .trouver{
   font-size: 18px;
 
+}
+    /*========= SECTION HEBERGEMENTS 426px< E < 768px=====*/
+
+.main {
+  margin: 0;
 }
 .marseille{
   margin-top: 3em;
@@ -157,6 +180,7 @@ h3{
 .cadre{
   display: flex;
   flex-direction: column-reverse;
+  margin-right: 4em;
 }
 .hotel-card{
   width: 27%;
@@ -168,6 +192,8 @@ h3{
 .other-page{
   font-size: 12px;
 }
+    /*========= SECTION ASIDE LES PLUS POPULAIRE 426px< E < 768px =====*/
+
 .contenu{
   padding: 0em;
   width: 13em;
@@ -205,6 +231,11 @@ h2{
   font-size: 15px;
   margin-right: 0.5em;
 }
+    /*======== SECTION ACTIVITES 426px< E < 768px=========*/ 
+
+.activity-container{
+  margin-right: 3em;
+}
 .activity-card{
   width: 90%;
 
@@ -219,42 +250,29 @@ h2{
 .activity-port-image{
   height: 31em;
 }
+    /*============= FOOTER 426px< E < 768px=============*/
+
 .assistance{
   margin-right: 1em;
-}
-.filters-container {
-  grid-column: 1 / span 4;
-}
-.filters {
-  flex-wrap: wrap;
-}
-
-.filter-label {
-  align-self: flex-start;
-}
-
-.filter {
-  margin: 0.5em 1em;
 }
 .liste li{
   margin: 0.2em 0;
   font-size: 12px;
 }
 footer{
-  margin-right: -3em;
+  margin-right: 0em;
 }
 
  }
  /*========= si l'écran est inférieur à 425px pour les téléphones portables ========*/
- @media screen and (max-width: 425px){
-    /*=============EN TËTE =========================*/
 
-  
-    .tete {
+ @media screen and (max-width: 425px){
+   
+  /*=============EN TÊTE  E < 425px =========================*/
+
+  .tete {
       margin: 0em;
     }  
-
- 
   .menu{
     justify-content: space-around;
     grid-row: 2;
@@ -360,7 +378,7 @@ footer{
     padding-top: 0;
   }
 
-  /* ================== MAIN ==============================*/
+  /* ================== MAIN E < 425px==============================*/
 
 
   main{
@@ -368,7 +386,7 @@ footer{
     flex-direction:column-reverse;
   }
 
-  /* ================= SECTION HEBERGEMENTS ========= */
+  /* ================= SECTION HEBERGEMENTS E < 425px========= */
 .marseille{
   font-size: 16px;
 }
@@ -396,7 +414,7 @@ footer{
 .card-container{
   margin-left: 0em;
 }
-/*================ASIDE LES PLUS POPULAIRES =======*/
+/*================ASIDE LES PLUS POPULAIRES E < 425px=======*/
 .main{
   margin: 0em;
 }
@@ -439,7 +457,7 @@ footer{
   font-size: 10px;
   font-weight: 500;
 }
-/*================SECTION ACTIVITES =============*/
+/*================SECTION ACTIVITES E < 425px=============*/
 .titre{
   font-size: 16px;
 }
@@ -456,7 +474,7 @@ footer{
   margin-bottom: 1em;
 }
 
-/*=============== FOOTER ===========*/
+/*=============== FOOTER E < 425px===========*/
 
   footer
   {
